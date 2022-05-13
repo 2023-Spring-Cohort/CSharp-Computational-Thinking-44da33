@@ -1,4 +1,5 @@
 ﻿# Computational Thinking Exercises
+ Make sure you only code where prompted in the Exercises.cs file. This means any code you write should be one line directly under "//Enter your solution here" and should never go beyond "Console.Write("Press enter to return to the Main Menu");" Once you are done with one solution, find the next spot down in the code to start your next solution to the next problem.  
 ## Are These Integers Equal?
 Ask the user for two integers. Check and see if the two integers are equal to each other. If they are, inform the the user that the numbers are equal, else inform the user that the numbers are not equal
 
