@@ -79,54 +79,6 @@ namespace template_csharp_computational_thinking
             Console.ReadLine();
         }
 
-        public static void RestaurantBill()
-        {
-            // At a restaurant, Mike and his three friends decided to divide the bill evenly.
-            // If each person paid $13 then what was the total bill?
-            // Use arithmetic operators and print the amount of the total bill to the console.
-
-            // Returning to the above problem, replace hard-coded values of 4(number of diners)
-            // and 13(cost per diner) with values provided by the user.
-
-            // How nice!The restaurant is having Customer Appreciation Week.
-            // If a table’s total bill is $50 or more, then they’ll receive a 10 % discount!
-            // Otherwise, they’ll receive a 5 % discount.
-
-            Console.Clear();
-            Console.WriteLine("RESTAURANT BILL\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
-        public static void AgeCategory()
-        {
-            // You're responsible for providing a demographic report for your local school district based on age.
-            // To do this, you're going to determine which 'category' each person fits into based on their age.
-            // The person's age will determine which category they should be in:
-
-            // If they're from 0 to 2 the child should be with parents print : 'Still in Mama's Arms'
-            // If they're 3 or 4 and should be in preschool print : 'Preschool Maniac'
-            // If they're from 5 to 11 and should be in elementary school print : 'Elementary School'
-            // From 12 to 14: 'Middle School'
-            // From 15 to 18: 'High School'
-            // From 19 to 22: 'College'
-            // From 23 to 65: 'Working for the Man'
-            // From 66 to 100: 'The Golden Years'
-            // If the age of the person is less than 0 or more than 100 - it might be an alien
-            // print: "This program is for humans".
-
-            Console.Clear();
-            Console.WriteLine("AGE CATEGORY\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
         public static void WordsToDigits()
         {
             // Having a string representation of a number, you need to print the digit form of the number.
@@ -185,6 +137,71 @@ namespace template_csharp_computational_thinking
             Console.WriteLine("NAME AND PLACE OF BIRTH\n");
 
             // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+
+        //LOOPS SECTION
+        //For this next section, in order to get a passing grade, each of the following problems must be solved using at least one of the the loop types we learned in class.
+
+
+        public static void NumbersInReverse()
+        {
+            // Print out numbers from 5 to 1.
+
+            Console.Clear();
+            Console.WriteLine("PRINT NUMBERS IN REVERSE ORDER\n");
+
+            // SOLUTION HERE
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        public static void ReverseCounting()
+        {
+            // Ask the user for a number between 1-20. Starting at the number given,
+            // count backwards to 1 and print the numbers to the console.
+
+            Console.Clear();
+            Console.WriteLine("REVERSE COUNTING\n");
+
+            // SOLUTION HERE
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        public static void SquareOfEvenNumbers()
+        {
+            // Print the squares (the number multiplied by itself) for even numbers between 1-9. For the odd numbers, just print them.
+
+            Console.Clear();
+            Console.WriteLine("PRINT THE SQUARE OF EVEN NUMBERS\n");
+
+            // SOLUTION HERE
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        public static void GuessMagicNumber()
+        {
+            // Write a console application that asks the user for an integer.
+            // If that integer is evenly divisible by 3, then print “You Won!”.
+            // If it isn’t, ask the user to “Try again.”
+            // Keep asking them for a number (looping) until they win.
+
+            Console.Clear();
+            Console.WriteLine("GUESS THE MAGIC NUMBER\n");
+
+            int userInput = Convert.ToInt32(Console.ReadLine());
+
+            // This reads the user's input and converts it to an integer.
+            // We'll assume that users can only input integers.
+            // SOLUTION HERE
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();

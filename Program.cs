@@ -12,12 +12,15 @@ while (keepThinking)
     Console.WriteLine("3. Vowel or Consonant?");
     Console.WriteLine("4. Find the Largest Number");
     Console.WriteLine("5. Divisible by 3");
-    Console.WriteLine("6. Restaurant Bill");
-    Console.WriteLine("7. Age Category");
-    Console.WriteLine("8. Words to Digits");
-    Console.WriteLine("9. Which Name is Longer?");
-    Console.WriteLine("10. Are these Names the Same?");
-    Console.WriteLine("11. Name and Place of Birth");
+    Console.WriteLine("6. Words to Digits");
+    Console.WriteLine("7. Which Name is Longer?");
+    Console.WriteLine("8. Are these Names the Same?");
+    Console.WriteLine("9. Name and Place of Birth");
+    Console.WriteLine("LOOPS SECTION");
+    Console.WriteLine("10. Numbers in Reverse");
+    Console.WriteLine("11. Reverse Counting");
+    Console.WriteLine("12. Square of Even Numbers");
+    Console.WriteLine("13. Guess the Magic Number");
     Console.WriteLine("Press Q to quit");
 
     string userChoice = Console.ReadLine().ToLower();
@@ -40,22 +43,28 @@ while (keepThinking)
             Exercises.DivisibleBy3();
             break;
         case "6":
-            Exercises.RestaurantBill();
-            break;
-        case "7":
-            Exercises.AgeCategory();
-            break;
-        case "8":
             Exercises.WordsToDigits();
             break;
-        case "9":
+        case "7":
             Exercises.WhichNameIsLonger();
             break;
-        case "10":
+        case "8":
             Exercises.AreNamesSame();
             break;
-        case "11":
+        case "9":
             Exercises.NameAndBirthplace();
+            break;
+        case "10":
+            Exercises.NumbersInReverse();
+            break;
+        case "11":
+            Exercises.ReverseCounting();
+            break;
+        case "12":
+            Exercises.SquareOfEvenNumbers();
+            break;
+        case "13":
+            Exercises.GuessMagicNumber();
             break;
         case "q":
             keepThinking = false;
