@@ -146,20 +146,6 @@ namespace template_csharp_computational_thinking
         //LOOPS SECTION
         //For this next section, in order to get a passing grade, each of the following problems must be solved using at least one of the the loop types we learned in class.
 
-
-        public static void NumbersInReverse()
-        {
-            // Print out numbers from 5 to 1.
-
-            Console.Clear();
-            Console.WriteLine("PRINT NUMBERS IN REVERSE ORDER\n");
-
-            // SOLUTION HERE
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
         public static void ReverseCounting()
         {
             // Ask the user for a number between 1-20. Starting at the number given,
@@ -176,7 +162,7 @@ namespace template_csharp_computational_thinking
 
         public static void SquareOfEvenNumbers()
         {
-            // Print the squares (the number multiplied by itself) for even numbers between 1-9. For the odd numbers, just print them.
+            // For the numbers 1-9, if a number is even print the square of that number (number multiplied by itself) and if it is odd, just print the number
 
             Console.Clear();
             Console.WriteLine("PRINT THE SQUARE OF EVEN NUMBERS\n");
