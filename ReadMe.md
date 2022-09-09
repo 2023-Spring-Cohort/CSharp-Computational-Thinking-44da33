@@ -107,7 +107,7 @@ Ask the user for their first name and where they were born. Print a sentence to 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** Hi Yvonne!  You were born in San Diego.
 
-#Loops Section 
+# Loops Section 
 ## Numbers In Reverse
 Print out numbers from 5 to 1.
 
