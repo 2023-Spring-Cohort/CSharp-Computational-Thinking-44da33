@@ -17,10 +17,9 @@ while (keepThinking)
     Console.WriteLine("8. Are these Names the Same?");
     Console.WriteLine("9. Name and Place of Birth");
     Console.WriteLine("LOOPS SECTION");
-    Console.WriteLine("10. Numbers in Reverse");
-    Console.WriteLine("11. Reverse Counting");
-    Console.WriteLine("12. Square of Even Numbers");
-    Console.WriteLine("13. Guess the Magic Number");
+    Console.WriteLine("10. Reverse Counting");
+    Console.WriteLine("11. Square of Even Numbers");
+    Console.WriteLine("12. Guess the Magic Number");
     Console.WriteLine("Press Q to quit");
 
     string userChoice = Console.ReadLine().ToLower();
@@ -55,15 +54,12 @@ while (keepThinking)
             Exercises.NameAndBirthplace();
             break;
         case "10":
-            Exercises.NumbersInReverse();
-            break;
-        case "11":
             Exercises.ReverseCounting();
             break;
-        case "12":
+        case "11":
             Exercises.SquareOfEvenNumbers();
             break;
-        case "13":
+        case "12":
             Exercises.GuessMagicNumber();
             break;
         case "q":
