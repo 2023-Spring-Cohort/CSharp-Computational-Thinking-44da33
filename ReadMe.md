@@ -59,39 +59,6 @@ Ask the user for a number and then tell them if it is divisible by 3
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** divisible by 3
 
-## Restaurant Bill
-At a restaurant, Mike and his three friends decided to divide the bill evenly. If each person paid $13 then what was the total bill? Use arithmetic operators and print the amount of the total bill to the console.
-Returning to the above problem, replace hard-coded values of 4 (number of diners) and 13 (cost per diner) with values provided by the user.
-How nice! The restaurant is having Customer Appreciation Week. If a table’s total bill is $50 or more, then they’ll receive a 10% discount! Otherwise, they’ll receive a 5% discount.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 6
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 17
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** You earned a 10% discount.  Your total bill is $91.80.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 4
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 10
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** Your total bill is $40.00.  You will receive $2.00 off your total bill for Customer Appreciation Week.
-
-## Age Category
-You're responsible for providing a demographic report for your local school district based on age. To do this, you're going to determine which 'category' each person fits into based on their age. The person's age will determine which category they should be in:
-- If they're from 0 to 2 the child should be with parents print : 'Still in Mama's Arms'
-- If they're 3 or 4 and should be in preschool print : 'Preschool Maniac'
-- If they're from 5 to 11 and should be in elementary school print : 'Elementary School'
-- From 12 to 14: 'Middle School'
-- From 15 to 18: 'High School'
-- From 19 to 22: 'College'
-- From 23 to 65: 'Working for the Man'
-- From 66 to 100: 'The Golden Years'
-- If the age of the person is less than 0 or more than 100 - it might be an alien - print: "This program is for humans".
- 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 13
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** You are in Middle School
-
 ## Words to Digits
 Having a string representation of a number, you need to print the digit form of the number. Ask the user to enter a string representation of a number from zero to ten. Using switch case, print the digit (0-10) representation of the number.
 
