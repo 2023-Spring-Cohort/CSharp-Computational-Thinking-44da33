@@ -66,7 +66,7 @@ Having a string representation of a number, you need to print the digit form of 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** 2
 
-## 6) Which Name is Longer?
+## 7) Which Name is Longer?
 Ask the user for their first and last name.
 Print the user's full name.
 - If the first name is longer than the last name, print "First is longer."
@@ -79,7 +79,7 @@ Print the user's full name.
 
 **Output:** Mary Brown. Last must be longer!
 
-## 7) Are these Names the Same?
+## 8) Are these Names the Same?
 Ask the user for 2 names.
 - If the two names are the same, print "The names are the same."
 - If they're not the same, print "The names are different."
@@ -92,7 +92,7 @@ Ask the user for 2 names.
 
 First try using == and then try it using .Equals()
 
-## 8) Name and Place of Birth
+## 9) Name and Place of Birth
 Ask the user for their first name and where they were born. Print a sentence to the console that repeats this information.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: John
@@ -108,28 +108,28 @@ Ask the user for their first name and where they were born. Print a sentence to 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** Hi Yvonne!  You were born in San Diego.
 
 # Loops Section 
-## 9) Numbers In Reverse
+## 10) Numbers In Reverse
 Print out numbers from 5 to 1.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Input
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** 5 4 3 2 1
 
-## 10) Reverse Counting
+## 11) Reverse Counting
 Ask the user for an integer input between 1 and 20 inclusive. Starting at the number given, count backwards to 1 and print the result.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: 15
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
 
-## 11) Square Of Even Numbers
+## 12) Square Of Even Numbers
 Print the squares (the number multiplied by itself) for even numbers between 1-9. For the odd numbers, just print them.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Input
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output:** 1 4 3 16 5 36 7 64 9
 
-## 12) Guess Magic Number
+## 13) Guess Magic Number
 Write a console application that asks the user for an integer.
 - If that integer is evenly divisible by 3, then print “You Won!”.
 - If it isn’t, ask the user to “Try again.”
